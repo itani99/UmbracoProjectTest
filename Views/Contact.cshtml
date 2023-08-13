@@ -1,0 +1,7 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@using UmbracoProject.Models;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+@{Html.RenderPartial("~/Views/Partials/Contact/Contact.cshtml",new EmailForm());}
